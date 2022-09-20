@@ -20,7 +20,7 @@ public class Role {
     private Long roleId;
 
     @Column(name = "ROLE_NAME")
-    private String roleName;
+    private String name;
 
     @Column(name = "DESCRIPTION")
     private String description;
